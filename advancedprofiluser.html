@@ -24,7 +24,7 @@
                     
                 <h1 class="title-col"><img src="./images/Face-24px.svg" width="50" height="50" alt=""> Identification</h1>
             </div>
-            <div class="col-sm-12 col-md-6 col">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                     
                 <h1 class="title-col"><img src="./images/portrait-24px.svg" width="30" height="30" alt=""> Biographie</h1>
             </div>
@@ -42,13 +42,44 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-md-6 col">
-               
+            <div class="col-sm-12 col-md-6 col">               
                 <h1 class="title-col"> <img src="./images/portrait-24px.svg" width="30" height="30" alt=""> Expertises</h1>
+                 <form id="expertise">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text"  class="form-control" id="expertise1" value="">
+                        </div>
+                        <div class="col">
+                            <input type="range" class="custom-range" min="0" max="5" step="0.5" id="expertiseR1">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                            <input type="text"  class="form-control" id="expertise2" value="">
+                        </div>
+                        <div class="col">
+                            <input type="range" class="custom-range" min="0" max="5" step="0.5" id="expertiseR2">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                            <input type="text"  class="form-control" id="expertise3" value="">
+                        </div>
+                        <div class="col">
+                            <input type="range" class="custom-range" min="0" max="5" step="0.5" id="expertiseR3">
+                        </div>
+                      </div>
+
+                 </form>
             </div>
             <div class="col-sm-12 col-md-6 col">
                 
                 <h1 class="title-col"><img src="./images/portrait-24px.svg" width="30" height="30" alt=""> Supports utilisés</h1>
+                <div class="form-group row">
+                        <div class="col-md-3"><label class="btn btn-primary"><img src="./images/phone-24px.svg" alt="..." width="60" height="60" class="img-thumbnail img-check"><input type="checkbox" name="chk1" id="item4" value="val1" class="hidden" autocomplete="off"></label></div>
+                        <div class="col-md-3"><label class="btn btn-primary"><img src="./images/tablet-24px.svg" alt="..." width="60" height="60" class="img-thumbnail img-check"><input type="checkbox" name="chk2" id="item4" value="val2" class="hidden" autocomplete="off"></label></div>
+                        <div class="col-md-3"><label class="btn btn-primary"><img src="./images/laptop_chromebook-24px.svg" alt="..." width="60" height="60" class="img-thumbnail img-check"><input type="checkbox" name="chk3" id="item4" value="val3" class="hidden" autocomplete="off"></label></div>
+                </div>
             </div>
         </div>
 
@@ -61,5 +92,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>

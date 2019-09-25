@@ -3,3 +3,9 @@
 .title-col {
     font-family: 'Dancing Script'
 }
+
+.check
+{
+    opacity:0.5;
+	color:#996;
+}
